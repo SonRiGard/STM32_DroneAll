@@ -1,0 +1,80 @@
+T446C 000:033.281   SEGGER J-Link V7.80c Log File
+T446C 000:033.379   DLL Compiled: Sep 27 2022 16:01:16
+T446C 000:033.383   Logging started @ 2022-11-30 13:09
+T446C 000:033.387 - 33.389ms
+T446C 000:033.394 JLINK_SetWarnOutHandler(...)
+T446C 000:033.400 - 0.007ms
+T446C 000:033.405 JLINK_OpenEx(...)
+T446C 000:034.734   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T446C 000:035.219   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T446C 000:037.280   Hardware: V7.00
+T446C 000:037.293   S/N: 20090928
+T446C 000:037.313   OEM: SEGGER
+T446C 000:037.318   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T446C 000:038.318   TELNET listener socket opened on port 19021
+T446C 000:038.437   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T446C 000:038.641   WEBSRV Webserver running on local port 19080
+T446C 000:044.093 - 10.695ms returns "O.K."
+T446C 000:044.116 JLINK_GetEmuCaps()
+T446C 000:044.121 - 0.007ms returns 0x88EA5833
+T446C 000:044.130 JLINK_TIF_GetAvailable(...)
+T446C 000:044.303 - 0.180ms
+T446C 000:044.319 JLINK_SetErrorOutHandler(...)
+T446C 000:044.324 - 0.006ms
+T446C 000:044.340 JLINK_ExecCommand("ProjectFile = "E:\STM32\DroneAll\MDK-ARM\JLinkSettings.ini"", ...). 
+T446C 000:053.616   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T446C 000:053.712   REF file references invalid XML file: C:\Program Files\SEGGER\JLink\JLinkDevices.xml
+T446C 000:053.807 - 9.471ms returns 0x00
+T446C 000:058.586 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T446C 000:059.262   Device "STM32F103C8" selected.
+T446C 000:059.555 - 0.962ms returns 0x00
+T446C 000:059.567 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T446C 000:059.574 - 0.003ms returns 0x01
+T446C 000:059.580 JLINK_GetHardwareVersion()
+T446C 000:059.584 - 0.006ms returns 70000
+T446C 000:059.589 JLINK_GetDLLVersion()
+T446C 000:059.594 - 0.006ms returns 78003
+T446C 000:059.599 JLINK_GetOEMString(...)
+T446C 000:059.607 JLINK_GetFirmwareString(...)
+T446C 000:059.611 - 0.006ms
+T446C 000:061.107 JLINK_GetDLLVersion()
+T446C 000:061.115 - 0.010ms returns 78003
+T446C 000:061.120 JLINK_GetCompileDateTime()
+T446C 000:061.124 - 0.006ms
+T446C 000:061.664 JLINK_GetFirmwareString(...)
+T446C 000:061.671 - 0.009ms
+T446C 000:062.145 JLINK_GetHardwareVersion()
+T446C 000:062.152 - 0.009ms returns 70000
+T446C 000:062.744 JLINK_GetSN()
+T446C 000:062.752 - 0.010ms returns 20090928
+T446C 000:063.227 JLINK_GetOEMString(...)
+T446C 000:064.257 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T446C 000:065.905 - 1.655ms returns 0x00
+T446C 000:065.918 JLINK_HasError()
+T446C 000:065.929 JLINK_SetSpeed(5000)
+T446C 000:066.078 - 0.156ms
+T446C 000:066.091 JLINK_GetIdData(pIdData)
+T446C 000:066.888   InitTarget() start
+T446C 000:066.900    J-Link Script File: Executing InitTarget()
+T446C 000:069.474   Could not measure total IR len. TDO is constant high.
+T446C 000:070.622   Error: Scanning JTAG chain failed.
+T446C 000:071.428   Can not attach to CPU. Trying connect under reset.
+T446C 000:124.776   Could not measure total IR len. TDO is constant high.
+T446C 000:125.997   Error: Scanning JTAG chain failed.
+T446C 000:126.483   Connecting to CPU via connect under reset failed.
+T446C 000:178.313   InitTarget() end
+T446C 000:178.813   Connect failed. Resetting via Reset pin and trying again.
+T446C 000:244.635   InitTarget() start
+T446C 000:244.706    J-Link Script File: Executing InitTarget()
+T446C 000:252.590   Could not measure total IR len. TDO is constant high.
+T446C 000:256.314   Error: Scanning JTAG chain failed.
+T446C 000:259.952   Can not attach to CPU. Trying connect under reset.
+T446C 000:315.670   Could not measure total IR len. TDO is constant high.
+T446C 000:318.005   Error: Scanning JTAG chain failed.
+T446C 000:319.459   Connecting to CPU via connect under reset failed.
+T446C 000:372.092   InitTarget() end
+T446C 000:372.127 - 306.042ms
+T446C 001:583.461 JLINK_Close()
+T446C 001:601.907 - 18.460ms
+T446C 001:601.924   
+T446C 001:601.929   Closed
