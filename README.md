@@ -1,0 +1,1 @@
+This project uses an STM32F103 microcontroller to control a drone, utilizing the MPU6050 for motion sensing, NRF24 for wireless communication, and a Kalman filter for sensor fusion. The implementation is based on the CMSIS library and leverages register-level programming for efficient control and performance.
